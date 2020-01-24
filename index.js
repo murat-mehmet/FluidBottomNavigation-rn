@@ -172,7 +172,7 @@ class TabBar extends Component {
                 adjustsFontSizeToFit={true}
                 style={{
                   color: this.props.tintColor,
-                  fontSize: 10
+                  fontSize: 12
                 }}
               >
                 {getLabelText({ route })}
@@ -311,9 +311,8 @@ const styles = {
   titleContainer: {
     position: "absolute",
     top: 0,
-    left: 0,
-    right: 0,
-    flex: 1,
+    left: -30,
+    right: -30,
     justifyContent: "center",
     alignItems: "center"
   }
