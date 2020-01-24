@@ -25,9 +25,6 @@
     "url": "https://github.com/10clouds/FluidBottomNavigation-rn/issues"
   },
   "homepage": "https://github.com/10clouds/FluidBottomNavigation-rn#readme",
-  "dependencies": {
-    "react-native-view-overflow": "^0.0.3"
-  },
   "peerDependencies": {
     "react": ">=16.0.0",
     "react-native": ">=0.55.0",
